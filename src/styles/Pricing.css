@@ -1,0 +1,114 @@
+#pricing {
+    background: #3f51b5;
+}
+
+.pricing {
+    width: 100%;
+    min-width: 980px;
+    padding: 5rem 0.87rem;
+    margin: 0 auto;
+}
+
+.pricing-top {
+    color: black;
+    text-align: center;
+}
+
+.pricing-top h1 {
+    padding-top: 30px;
+    font-size: 45px;
+    font-weight: 500px;
+    margin: 0 8rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.3;
+    color: #29d9c2;
+}
+
+.pricing-top p {
+    margin: 0 8px;
+    opacity: 0.7;
+}
+
+.pricing-items {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 4rem;
+
+}
+
+.pricing-item {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.pricing-item h3 {
+    color: #29d9c2;
+    /* color: #00bcd4; */
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.pricingItem-price {
+    padding: 2rem 0;
+    font-weight: bold;
+}
+
+.pricingItem-price .price {
+    font-style: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+.pricingItem-price .dollar {
+    font-style: 2rem;
+    vertical-align: top;
+}
+
+.pricingItem-price .period {
+    font-style: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.pricingItem-info {
+    list-style: none;
+    color: gray;
+    padding-bottom: 2rem;
+}
+
+.pricingItem-info li {
+    margin-bottom: 0.3rem;
+}
+
+.pricing-item button {
+    background-color: #29d9c2;
+    /* background-color: #00bcd4; */
+    outline: none;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 2rem;
+    color: #fff;
+}
+
+.pricing-item button:hover {
+    background-color: #111;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .pricing-items {
+        flex-direction: column
+    }
+
+    .pricing-top h1 {
+        margin: 0;
+    }
+
+    .pricing-top p {
+        margin: 0;
+        margin-top: 1rem;
+    }
+};
